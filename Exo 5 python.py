@@ -1,8 +1,0 @@
-print("On est le combien ?")
-j = int (input("Jour: "))
-print("Quel heure est-il ?")
-h = int (input("Heure: "))
-print("Combien de minutes ?")
-m = int(input("Minute: "))
-total = (j*1440+h*60+m)
-print(total,'minutes ce sont écoulées depuis le début du mois !')
